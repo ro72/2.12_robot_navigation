@@ -1,8 +1,8 @@
 # 2.12_robot_navigation
-Discove ROS programming at MIT Robotics class 2.12
-Visual Navigation using AprilTags
+Discover ROS programming at MIT Robotics class 2.12  
+Visual Navigation using AprilTags  
 
-## Note: You might need to edit the apriltags package as follows
+## Note: You might need to edit the apriltags package as follows  
 apriltags/src/apriltags.cpp needs to be edited:  
 1. delete `#include <opencv/cv.h>` and `#include <opencv/highgui.h>`  
 2. add `#include <opencv2/opencv.hpp>`
